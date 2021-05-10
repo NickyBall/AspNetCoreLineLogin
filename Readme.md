@@ -29,3 +29,5 @@ var redirectUrl = Url.Page("./ExternalLogin", pageHandler: "Callback", values: n
 var properties = _signInManager.ConfigureExternalAuthenticationProperties(LineDefaults.AuthenticationScheme, redirectUrl);
 return new ChallengeResult(LineDefaults.AuthenticationScheme, properties);
 ```
+
+You can find a sample [here](https://greenrabbitcoding.com/2021/05/10/asp-net-core-line-login-how-to/)
